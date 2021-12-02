@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="88dp"
+            android:textSize="33dp"
+            android:textColor="#0B85D8"
+            android:text="New Record" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="55dp"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:id="@+id/texxtView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="43dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#0B85D8"
+                android:text="Weight" />
+
+            <EditText
+                android:id="@+id/editTextNumberr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="55dp"
+                android:layout_weight="1"
+                android:ems="1"
+                android:hint="                 kg"
+                android:inputType="number"
+                android:textColorHint="#000"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0B85D8"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginLeft="43dp"
+                android:text="Lenght" />
+
+            <EditText
+                android:id="@+id/editTextNumber12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="55dp"
+                android:layout_weight="1"
+                android:ems="1"
+                android:hint="                 cm"
+                android:inputType="number"
+                android:textColorHint="#000"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0B85D8"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginLeft="43dp"
+                android:text="Date" />
+
+            <EditText
+                android:id="@+id/editTextDate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="5"
+                android:layout_marginRight="11dp"
+                android:hint="   day /  month /  year"
+                android:inputType="date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0B85D8"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginLeft="43dp"
+                android:text="Time" />
+
+            <EditText
+                android:id="@+id/editTextTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="5"
+                android:layout_marginRight="11dp"
+                android:inputType="time" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="55dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:background="#0B85D8"
+                android:layout_marginLeft="40dp"
+                android:textSize="22dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#ffff"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:background="#0B85D8"
+                android:textSize="22dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#ffff"
+                android:text="Back" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

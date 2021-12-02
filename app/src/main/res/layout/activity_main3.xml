@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textColor="#0B85D8"
+            android:layout_gravity="center"
+            android:layout_marginTop="88dp"
+            android:textSize="33dp"
+            android:text="Creat New Account " />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textColor="#A9666644"
+            android:layout_marginBottom="22dp"
+            android:text="If you do not already have an account" />
+
+
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:hint="Name"
+            android:ems="20"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:ems="20"
+            android:hint="Username"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:ems="20"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword4"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:hint="Re-password"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="#0B85D8"
+                android:layout_weight="1"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_marginLeft="20dp"
+                android:text="Creat" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="#0B85D8"
+                android:layout_marginLeft="40dp"
+                android:textSize="22dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#ffff"
+                android:text="Back" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
