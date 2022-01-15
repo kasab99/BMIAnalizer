@@ -53,6 +53,18 @@
             android:textColor="#0B85D8"
             android:text="Old status" />
 
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:background="#0B85D8"
+            android:layout_gravity="center"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Logout" />
+
     </LinearLayout>
 
 
